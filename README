@@ -8,3 +8,15 @@ Hoon Hwangbo
 This is build script of BulletPhysics for iOS platform.
 And packages them as several types.
 
+
+
+
+
+DEPENDENCIES
+
+This script requires these thins.
+
+- Internet connection.
+- Mac OS X or iOS SDK.
+- CMake. Install it with package manager like `Homebrew`. (`brew install cmake`)
+
