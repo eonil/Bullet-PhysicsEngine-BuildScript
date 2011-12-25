@@ -43,6 +43,6 @@ This will create a new directory `Build` and make binaries in the `Build/Package
 This script requires these stuffs.
 
 - Internet connection.
-- Mac OS X or iOS SDK.
+- Mac OS X or iOS SDK installation. This uses Xcode.
 - CMake. I recommend instaling it with Homebrew. (`brew install cmake`)
 
