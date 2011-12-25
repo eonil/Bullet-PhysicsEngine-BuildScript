@@ -21,9 +21,11 @@ This script uses 2.79 (r2440) of Bullet source.
 
 USAGE
 
-1. `git clone git@github.com:Eonil/Bullet-PhysicsEngine-BuildScript-iOS.git`
-2. `cd "Bullet-PhysicsEngine-BuildScript-iOS"
-3. `sh ./Script/BuildAll.sh ./Build`
+Open *Terminal*, and type these command.
+
+	git clone git@github.com:Eonil/Bullet-PhysicsEngine-BuildScript-iOS.git
+	cd "Bullet-PhysicsEngine-BuildScript-iOS"
+	sh ./Script/BuildAll.sh ./Build
 
 This will create a new directory `Build` and make binaries in the `Build/Package` directory.
 
