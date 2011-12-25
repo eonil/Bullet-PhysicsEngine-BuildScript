@@ -5,8 +5,31 @@ Hoon Hwangbo
 
 
 
-This is build script of BulletPhysics for iOS platform.
-And packages them as several types.
+This script builds Bullet physics engine as static library for *iOS* platform fat binaries.
+The binary contains `ARMv6/ARMv7` for device and `x86` for simulator.
+
+This script uses 2.79 (r2440) of Bullet source.
+
+
+
+
+
+
+
+
+
+
+USAGE
+
+1. `git clone git@github.com:Eonil/BulletPhysics-BuildScript-iOS.git`
+2. `cd "BulletPhysics-BuildScript-iOS"
+3. `sh ./Script/BuildAll.sh ./Build`
+
+This will create a new directory `Build` and make binaries in the `Build/Package` directory.
+
+
+
+
 
 
 
@@ -14,9 +37,9 @@ And packages them as several types.
 
 DEPENDENCIES
 
-This script requires these thins.
+This script requires these stuffs.
 
 - Internet connection.
 - Mac OS X or iOS SDK.
-- CMake. Install it with package manager like `Homebrew`. (`brew install cmake`)
+- CMake. I recommend instaling it with Homebrew. (`brew install cmake`)
 
