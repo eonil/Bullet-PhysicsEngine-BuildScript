@@ -28,7 +28,7 @@ Open *Terminal*, and type these command.
 	cd "Bullet-PhysicsEngine-BuildScript-iOS"
 	sh ./Script/BuildAll.sh ./Build
 
-This will create a new directory `Build` and make binaries in the `Build/Package` directory.
+You will get binaries with directory structure and headers in `./Build/Package`.
 
 
 
