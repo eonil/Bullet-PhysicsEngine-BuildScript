@@ -1,11 +1,12 @@
-BULLET PHYSICS BUILD SCRIPT for iOS
+# BULLET PHYSICS BUILD SCRIPT for iOS
+-----
 Hoon Hwangbo
 2011.12.24
 
 
 
 
-This script builds Bullet physics engine as static library for *iOS* platform fat binaries.
+This script builds **Bullet** physics engine as static library for *iOS* platform fat binaries.
 The binary contains `ARMv6/ARMv7` for device and `x86` for simulator.
 
 This script uses 2.79 (r2440) of Bullet source.
@@ -19,7 +20,7 @@ This script uses 2.79 (r2440) of Bullet source.
 
 
 
-USAGE
+## USAGE
 
 Open *Terminal*, and type these command.
 
@@ -37,7 +38,7 @@ This will create a new directory `Build` and make binaries in the `Build/Package
 
 
 
-DEPENDENCIES
+## DEPENDENCIES
 
 This script requires these stuffs.
 
