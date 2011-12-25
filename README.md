@@ -6,8 +6,8 @@ Hoon Hwangbo
 
 
 
-This script builds **Bullet** physics engine as static library for *iOS* platform fat binaries.
-The binary contains `ARMv6/ARMv7` for device and `x86` for simulator.
+This script builds [**Bullet** physics engine](http://bulletphysics.org) as static library for *iOS* platform fat binaries.
+The binary contains *ARMv6/ARMv7* for device and *x86* for simulator.
 
 This script uses 2.79 (r2440) of Bullet source.
 
