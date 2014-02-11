@@ -4,6 +4,10 @@ BulletPhysics Automatic Build Script
 Hoon H.
 
 
+Run this command.
+
+	bash fetch-and-build-bullet.bash
+
 This script automatically builds Bullet Physics engine v2.82 r2722
 for OS X and iOS (both of simulator and device) platforms.
 
