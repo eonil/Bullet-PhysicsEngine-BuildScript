@@ -42,8 +42,8 @@ function merge_ios_libs()
 	cp osx/macosx10.9/Debug/lib$LIB_NAME.a $DST_DIR/osx/Debug/lib$LIB_NAME.a
 	cp osx/macosx10.9/Release/lib$LIB_NAME.a $DST_DIR/osx/Release/lib$LIB_NAME.a
 
-	lipo ios/iphonesimulator7.0/Debug/lib$LIB_NAME.a ios/iphoneos7.0/Debug/lib$LIB_NAME.a -create -output $DST_DIR/ios/Debug/lib$LIB_NAME.a
-	lipo ios/iphonesimulator7.0/Release/lib$LIB_NAME.a ios/iphoneos7.0/Release/lib$LIB_NAME.a -create -output $DST_DIR/ios/Release/lib$LIB_NAME.a
+	lipo ios/iphonesimulator7.1/Debug/lib$LIB_NAME.a ios/iphoneos7.1/Debug/lib$LIB_NAME.a -create -output $DST_DIR/ios/Debug/lib$LIB_NAME.a
+	lipo ios/iphonesimulator7.1/Release/lib$LIB_NAME.a ios/iphoneos7.1/Release/lib$LIB_NAME.a -create -output $DST_DIR/ios/Release/lib$LIB_NAME.a
 }
 
 merge_ios_libs BulletCollision
