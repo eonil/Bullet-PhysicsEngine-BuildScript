@@ -25,3 +25,7 @@ There was a small issue with unit-test code, and I included hotfix for it.
 If the author confirms the issue as a bug, I would (maybe...) update this.
 
 
+
+License
+-------
+Licensed under "MIT License".
