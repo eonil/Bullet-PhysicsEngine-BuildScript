@@ -29,3 +29,10 @@ If the author confirms the issue as a bug, I would (maybe...) update this.
 License
 -------
 Licensed under "MIT License".
+
+
+
+
+Update
+------
+This script is designed for outdated version of Bullet library, and reported not to work for latest version of Bullet source. If you're looking for a way to build the latest source, [here's a QA](http://www.bulletphysics.org/Bullet/phpBB3/viewtopic.php?t=10555&p=35461) for it. 
